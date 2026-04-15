@@ -1,0 +1,1 @@
+# TODO for Basic Login Page\n\n- [x] Step 1: Update login.html with form, CSS link, and JS logic\n- [x] Step 2: Update login.css with styling\n- [x] Step 3: Test the login page (live-server running, open http://127.0.0.1:8080 - demo creds: admin/password)\n- [x] Step 4: Mark complete and cleanup TODO.md\n\nBasic login page completed! You can delete this file.
