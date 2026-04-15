@@ -1,6 +1,6 @@
 ## 👥 Group 2 Members
 
-We are Group 2, the team behind the development and documentation of this project:
+We are Group 2, the team behind the development of this project:
 
 | Name | Potential Role / Focus Area |
 | :--- | :--- |
