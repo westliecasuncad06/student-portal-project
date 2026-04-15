@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Student Portal</title>
+    <style>
+        /* Same full CSS as dashboard/profile for consistency */
+        /* ... (paste full CSS) */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Student Portal</h2>
+            <a href="index.html" class="nav-item">🏠 Home</a>
+            <a href="login.html" class="nav-item">🔐 Login</a>
+            <a href="dashboard/dashboard.html" class="nav-item">📊 Dashboard</a>
+            <a href="profile.html" class="nav-item">👤 Profile</a>
+            <a href="contact.html" class="nav-item active">📞 Contact</a>
+        </nav>
+        <main class="main">
+            <div class="section">
+                <h1>Contact Us</h1>
+                <p>Reach out for support or inquiries.</p>
+                <div class="contact-info">
+                    <div><strong>Email:</strong> support@studentportal.com</div>
+                    <div><strong>Phone:</strong> +1 (555) 987-6543</div>
+                    <div><strong>Address:</strong> 123 University Ave</div>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script>
+        document.querySelector('form').addEventListener('submit', e => { e.preventDefault(); alert('Message sent! (Mock)'); });
+    </script>
+</body>
+</html>
