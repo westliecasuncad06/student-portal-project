@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile — Student Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">StudentPortal</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="profile.html" class="active">Profile</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Logout</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- Profile Card -->
+    <div class="profile-card">
+      <div class="banner"></div>
+      <div class="profile-info">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <div class="avatar">CY</div>
+          <div class="profile-details">
+            <h2>CY Dela Cruz</h2>
+            <p>Student ID: 2021-00421</p>
+            <span class="tag">BS IT · 3rd Year</span>
+          </div>
+        </div>
+        <button class="btn" onclick="alert('Edit profile — coming soon!')">Edit Profile</button>
+      </div>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="grid">
+      <!-- Personal Info -->
+      <div class="card">
+        <div class="card-title">Personal Info</div>
+        <div class="info-row">
+          <span class="info-key">Email</span>
+          <span class="info-val">cy.delacruz@student.edu.ph</span>
+        </div>
+        <div class="info-row">
+          <span class="info-key">Contact</span>
+          <span class="info-val">+63 912 345 6789</span>
+        </div>
+        <div class="info-row">
+          <span class="info-key">Department</span>
+          <span class="info-val">College of Computing</span>
+        </div>
+        <div class="info-row">
+          <span class="info-key">Campus</span>
+          <span class="info-val">Caloocan City</span>
+        </div>
+        <div class="info-row">
+          <span class="info-key">Status</span>
+          <span class="info-val">Regular Student</span>
+        </div>
+      </div>
+
+      <!-- Academic Stats -->
+      <div class="card">
+        <div class="card-title">Academic Stats</div>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">3.8</div>
+            <div class="stat-label">GWA</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">6</div>
+            <div class="stat-label">Subjects</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">94%</div>
+            <div class="stat-label">Attendance</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Current Subjects -->
+      <div class="card">
+        <div class="card-title">Current Subjects</div>
+        <div class="subject">
+          <div class="dot"></div>
+          <div>Capstone Project 2</div>
+          <div class="grade">A</div>
+        </div>
+        <div class="subject">
+          <div class="dot"></div>
+          <div>IT Elective 3</div>
+          <div class="grade">A-</div>
+        </div>
+        <div class="subject">
+          <div class="dot"></div>
+          <div>Systems Integration</div>
+          <div class="grade">B+</div>
+        </div>
+        <div class="subject">
+          <div class="dot"></div>
+          <div>Software Engineering</div>
+          <div class="grade">A</div>
+        </div>
+      </div>
+
+      <!-- Recent Activity -->
+      <div class="card">
+        <div class="card-title">Recent Activity</div>
+        <div class="activity">
+          <div class="dot"></div>
+          <div>Submitted <strong>Capstone Chapter 2</strong></div>
+          <div class="time">Today, 10:24 AM</div>
+        </div>
+        <div class="activity">
+          <div class="dot"></div>
+          <div>Enrolled in <strong>Mobile Development</strong></div>
+          <div class="time">Yesterday</div>
+        </div>
+        <div class="activity">
+          <div class="dot"></div>
+          <div>Quiz — <strong>Info Assurance</strong> · 92/100</div>
+          <div class="time">3 days ago</div>
+        </div>
+      </div>
+
+      <!-- Skills & Badges (Full Width) -->
+      <div class="card" style="grid-column: 1 / -1;">
+        <div class="card-title">Skills & Recognitions</div>
+        <div class="badges">
+          <div class="badge">HTML/CSS</div>
+          <div class="badge">Flutter</div>
+          <div class="badge">Firebase</div>
+          <div class="badge">MySQL</div>
+          <div class="badge">Python</div>
+          <div class="badge">Java</div>
+          <div class="badge">Dean's List</div>
+          <div class="badge">Best Capstone 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
