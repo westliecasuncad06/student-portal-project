@@ -4,7 +4,7 @@ We are Group 2, the team behind the development and documentation of this projec
 
 | Name | Potential Role / Focus Area |
 | :--- | :--- |
-| **Casuncad, Westlie** 
-| **Boado, Mark Frederick**
-| **Cardenas, Mharc Angelo** 
-| **Mendoza, Cyra Juliane**
+| **Casuncad, Westlie** | Lead Developer / Home Page |
+| **Boado, Mark Frederick** | Login Page |
+| **Cardenas, Mharc Angelo** | Dashboard |
+| **Mendoza, Cyra Juliane** | Profile Page |
